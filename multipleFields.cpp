@@ -17,9 +17,8 @@ private:
 };
 
 // constructor
-A::A() {
-    data.assign(10000, 0);
-    n = 5;
+A::A()
+    : n(5), data(10000, 0) {
 }
 
 int main() {
